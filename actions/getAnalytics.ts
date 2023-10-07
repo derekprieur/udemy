@@ -50,7 +50,7 @@ export const getAnalytics = async (userId: string) => {
     } catch (error) {
         console.log('GET ANALYTICS ERROR: ', error)
         return {
-            data: {},
+            data: [],
             totalRevenue: 0,
             totalSales: 0,
         }
